@@ -1,0 +1,43 @@
+.card{
+    border: none !important;
+    width: 15rem;
+    height: 45vh !important;
+    display: flex;
+    flex-direction: column;
+    background: #d1cece !important;
+}
+.card-img{
+    height: 80%;
+    /* border: 1px solid orange; */
+    background: transparent;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: transparent;
+}
+
+.card-details{
+    border: none;
+    text-decoration: none;
+    background: #fff !important;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    padding: 0.2rem 0.4rem;
+}
+.card-details p:nth-child(1){
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.card-details p:nth-child(2){
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,122 @@
+/* Global style for scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Font families */
+.var {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kan {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 6rem;
+}
+.mons {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Button styles */
+.primary-btn {
+    border: none;
+    background: #e9fff0;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+}
+.secondary-btn {
+    border: none;
+    background: #243642;
+    color: white;
+    width: 70%;
+    border-radius: 20px;
+    height: 2.5rem;
+    margin-top: 2rem;
+}
+
+.input {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    outline: none;
+    width: 70%;
+    border-radius: 20px;
+    height: 2.5rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.home {
+    height: 90vh;
+    background: #629584;
+    padding: 2rem 4rem;
+}
+.home-left, .home-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fan, .sofa, .fridge, .almirah, .tv {
+    position: absolute;
+}
+
+.fan {
+    top: 50px;
+    height: 7rem;
+    width: 12rem;
+}
+.sofa {
+    top: 240px;
+    height: 10rem;
+    width: 22rem;
+}
+.fridge {
+    top: 167px;
+    left: 53px;
+    height: 16rem;
+    width: 8rem;
+}
+.almirah {
+    top: 167px;
+    right: 60px;
+    height: 16rem;
+    width: 8rem;
+}
+.tv {
+    top: 270px;
+    left: 370px;
+    height: 10rem;
+    width: 12rem;
+}
+
+.fan img, .sofa img, .fridge img, .almirah img, .tv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-right p {
+    color: #E2F1E7;
+    position: absolute;
+}
+.home-right p:nth-child(1) {
+    top: 126px;
+}
+.home-right p:nth-child(2) {
+    top: 200px;
+}
+.home-right p:nth-child(3) {
+    top: 275px;
+}
+.home-right .button {
+    position: absolute;
+    bottom: 100px;
+    text-decoration: none;
+}

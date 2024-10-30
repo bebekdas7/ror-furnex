@@ -1,0 +1,63 @@
+.signup-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.signup-form-container .field {
+  margin-bottom: 15px;
+}
+
+.signup-form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.signup-form-container input[type="email"],
+.signup-form-container input[type="name"],
+.signup-form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.signup-form-container .error-messages {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.signup-form-container .actions input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-form-container .actions input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.signup-form-container .devise-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-form-container .devise-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-form-container .devise-links a:hover {
+  text-decoration: underline;
+}

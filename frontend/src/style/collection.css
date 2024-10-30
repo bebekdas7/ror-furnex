@@ -1,0 +1,55 @@
+/* -------------------sofa collection --------------- */
+.sofa-banner{
+    height: 30vh;
+    background: #e7e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.sofa-banner-header{
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sofa-banner-header h2{
+    font-size: 2.5rem;
+}
+.sofa-bnaner-image{
+    width: 25vw;
+    height: 80%;
+}
+.sofa-bnaner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sofa-filter-section{
+    margin-top: 2rem;
+    height: 9vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15rem;
+}
+
+.sofa-listing {
+    padding: 2rem 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+/* ---------------------------chair collection --------------- */
+.chair-banner{
+    height: 30vh;
+    background: #e7e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}

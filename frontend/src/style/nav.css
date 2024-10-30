@@ -1,0 +1,37 @@
+.nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.nav-items{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.nav-items button{
+    border: none;
+    background: none;
+}
+
+.overlay{
+    /* border: 1px solid black; */
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 0;
+    left: 207px;
+    background: green;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+}
