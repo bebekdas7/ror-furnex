@@ -1,20 +1,21 @@
 ROR Furnex
 
-Description:
+DESCRIPTION:
+
 ROR Furnex is a Ruby on Rails application designed for managing furniture inventory and sales. This application allows users to browse, add, and manage furniture items efficiently. It incorporates features for both customers and administrators, providing a seamless experience for furniture management.
 
 Installation Instructions
+
 Clone the Repository:
-
 git clone https://github.com/bebekdas7/ror-furnex.git
+
 Navigate to the Project Directory:
-
 cd ror-furnex
+
 Install Dependencies:
-
 bundle install
-Set Up the Database: Paste the following data into seeds.rb in the backend directory:
 
+Set Up the Database: Paste the following data into seeds.rb in the backend directory:
 chairs = [
   { name: "Elegant Office Chair", brand: "FURNE-X", description: "A comfortable office chair with ergonomic support.", price: "149.99" },
   { name: "Modern Dining Chair", brand: "DecoHome", description: "A stylish dining chair with a sleek design.", price: "89.99" },
@@ -28,8 +29,8 @@ chairs.each do |chair_data|
 end
 
 puts "Seeding completed!"
-Now, run the following command in the terminal:
 
+Now, run the following command in the terminal:
 rails db:migrate
 Start the Server:
 rails server
